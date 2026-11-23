@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Untuk Clarissa - Dari Zunun ❤️</title>
+<style>
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Georgia, serif;
+  background: linear-gradient(145deg,#21172c,#51334d,#a36c78);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  overflow-x: hidden;
+}
+.card {
+  max-width: 480px;
+  width: 100%;
+  padding: 32px 25px;
+  text-align: center;
+  border-radius: 25px;
+  background: rgba(255,255,255,.12);
+  border: 1px solid rgba(255,255,255,.25);
+  box-shadow: 0 15px 45px #0005;
+  backdrop-filter: blur(10px);
+}
+h1 { color: #ffd6e5; }
+.heart {
+  font-size: 45px;
+  animation: beat 1.2s infinite;
+}
+@keyframes beat {
+  50% { transform: scale(1.2); }
+}
+.message {
+  line-height: 1.9;
+  font-size: 16px;
+  text-align: left;
+  margin-top: 25px;
+}
+button {
+  border: none;
+  border-radius: 30px;
+  padding: 13px 25px;
+  margin-top: 20px;
+  background: #ffd6e5;
+  color: #57344c;
+  font-size: 15px;
+  cursor: pointer;
+}
+.hidden { display: none; }
+.signature {
+  margin-top: 28px;
+  color: #ffd6e5;
+  font-style: italic;
+}
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="heart">❤️</div>
+  <h1>Untuk Clarissa</h1>
+  <p><i>Dari seseorang yang ingin melihatmu tersenyum...</i></p>
+
+  <div class="message">
+    Hai, Clarissa...
+
+    <p>
+    Aku tidak tahu seberapa berat hari-hari yang sedang kamu lalui.
+    Aku juga mungkin tidak sepenuhnya mengerti apa yang sedang
+    kamu rasakan. Tapi aku ingin kamu tahu satu hal:
+    perasaanmu itu berarti.
+    </p>
+
+    <p>
+    Kalau hari ini kamu sedih, tidak apa-apa.
+    Kalau kamu ingin menangis, menangislah.
+    Kalau kamu merasa lelah, istirahatlah.
+    Kamu tidak harus selalu terlihat kuat di depan semua orang.
+    </p>
+
+    <p>
+    Jangan pernah merasa bersalah hanya karena kamu sedang
+    tidak baik-baik saja. Kesedihanmu bukan kelemahan.
+    Rasa kecewamu bukan sesuatu yang harus kamu sembunyikan.
+    Kamu berhak merasa sedih, kamu berhak didengarkan,
+    dan kamu berhak mendapatkan ketenangan.
+    </p>
+
+    <p>
+    Clarissa, jangan terlalu keras kepada dirimu sendiri.
+    Kamu sudah berusaha sejauh ini. Mungkin ada banyak hal
+    yang tidak berjalan sesuai harapan, mungkin ada luka
+    yang belum sembuh, dan mungkin ada cerita yang belum
+    sanggup kamu ceritakan.
+    Tidak apa-apa. Pelan-pelan saja.
+    </p>
+
+    <p>
+    Aku tidak akan memintamu untuk selalu tersenyum.
+    Aku hanya berharap kamu tidak kehilangan alasan
+    untuk terus menyayangi dirimu sendiri.
+    Kamu tetap berharga, bahkan ketika sedang merasa
+    tidak berdaya.
+    </p>
+
+    <p>
+    Semoga esok sedikit lebih ringan.
+    Semoga hatimu perlahan menemukan ketenangan.
+    Dan semoga suatu hari nanti kamu bisa melihat kembali
+    perjalanan ini dengan senyuman, karena ternyata
+    kamu mampu melewati semuanya.
+    </p>
+
+    <p>
+    Terima kasih sudah bertahan sampai hari ini,
+    Clarissa. Jangan lupa, kamu juga pantas mendapatkan
+    kasih sayang, perhatian, dan kebahagiaan.
+    </p>
+  </div>
+
+  <button onclick="showLove()">
+    Buka pesan kecil dariku ❤️
+  </button>
+
+  <div id="extra" class="hidden">
+    <h3>Clarissa, dengarkan ini... 🌷</h3>
+    <p>
+    Kamu tidak harus menyelesaikan semuanya hari ini.
+    Satu langkah kecil pun tetap sebuah kemajuan.
+    Jangan menyerah pada dirimu sendiri, ya.
+    Aku berharap kamu selalu menemukan alasan untuk
+    tersenyum kembali.
+    </p>
+    <p><b>Terima kasih sudah menjadi Clarissa.</b></p>
+  </div>
+
+  <div class="signature">
+    Dengan tulus dan penuh perhatian,<br>
+    <b>Zunun ❤️</b>
+  </div>
+</div>
+
+<script>
+function showLove() {
+  document.getElementById("extra").style.display = "block";
+}
+</script>
+</body>
+</html>
